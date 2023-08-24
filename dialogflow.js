@@ -31,8 +31,8 @@ app.post("/webhook", async (req, res) => {
     }
 
     function firstyear(agent) {
-        console.log(`intent  => courses `);
-        agent.add("What can i do?")
+        console.log(`intent  => firstyear `);
+        agent.add("first year class start in march.")
     }
 
     let intentMap = new Map();
